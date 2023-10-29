@@ -1,0 +1,126 @@
+
+
+.carouselItems{
+    display: flex;
+    gap:41px;
+    overflow: hidden;
+     width: 1266px;
+}
+
+.carouselItem{
+    width: 381px;
+    height: 554px;
+    padding: 27px;
+   border-radius: 20.94px;
+    border: 1.37px solid #93A2D361
+}
+
+.posterHeading{
+    margin-top: 35px;
+    font-size: 21px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #0E2368;
+}
+
+.posterText{
+    margin-top: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #444957;
+}
+
+.posterButton{
+    cursor: pointer;
+    padding: 3px 26px 3px 26px;
+    border-radius: 21px;
+    border: 1px solid #424961;
+    font-family: 'Source Sans 3', sans-serif;;
+    font-weight: 600;
+    font-size: 16.44px;
+    line-height: 35.59px;
+    margin-top: 27.41px;
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    gap: 14px;
+}
+.arrowsDead{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    gap: 14px;
+}
+.pageNumber{
+    font-family: 'Source Sans 3', sans-serif;;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27.22px;
+}
+
+
+@media (max-width:1405px){
+     
+    .carouselItems{
+        width: 836px;
+    }
+    .arrows{
+        display: none;
+    }
+    .arrowsDead{
+        display: flex;
+    }
+    .pageNumber{
+        display: none;
+    }
+}
+
+@media (max-width:376px){
+    .carouselItems{
+        flex-direction: column;
+        height: 1500px;
+        overflow: hidden;
+        
+    }
+
+    .carouselItem{ 
+        width: 271px;
+        height: 484px;
+        padding: 27px;
+       border-radius: 20.94px;
+        border: 1.37px solid #93A2D361
+    }
+   
+    img{
+        width: 204px;
+        height: 166px;
+    }
+    .posterHeading{
+        font-size: 16px
+        
+    }
+    .posterText{
+        font-size: 12px;
+    }
+    .posterButton{
+        width: 118px;
+        height: 26px;
+        padding: 4px 33px 4px 33px;
+        font-size: 11px;
+        line-height: 46px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,396 @@
+.firstContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 33px;
+    padding-left: 100px;
+}
+
+.heading{
+    font-size: 62px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    color:#0E2368;
+    line-height: 69px;
+    margin-left: 100px;
+    margin-top: 111px;
+}
+
+.redText{
+    color: #E23744;
+}
+
+.text{
+    font-size: 16.44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #444957;
+    line-height: 27.41px;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.button{
+    background-color: #E23744;
+    border-radius: 34px;
+    padding: 14px 34px 14px 34px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 97px;
+    margin-top: 41px;
+    cursor: pointer;
+}
+
+.button.two{
+    position: absolute;
+    top: 32px;
+    right: 41px;
+    font-weight: 600;
+    padding: 3px 26px 3px 26px;
+    border: 1px solid white;
+    border-radius: 21px;
+    font-size: 16px;
+    line-height: 36px;
+    font-family: 'Source Sans 3', sans-serif;;
+    
+}
+
+
+.img1{
+    position: relative;
+  
+}
+
+.pizza{
+    width: 735px;
+    height: 804px;
+}
+.svg{
+    position: absolute;
+    top: -1px;
+    left: -9px;
+  
+}
+
+.secondContainer{
+    height: 467px ;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    margin-top: 186px;
+    display: flex;
+    padding-left: 205px;
+}
+
+.aboutUs{
+    width: 447px;
+    height: 240px;
+    margin-left: 200px;
+    margin-top: 107px;
+}
+
+.headingTwo{
+    font-family: 'Poppins', sans-serif;    font-weight: 600;
+    font-size: 45px;
+    line-height: 27px;
+    color:  #0E2368;
+}
+.contentTwo{
+    margin-top: 27.41px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444957;
+    line-height: 27px;
+}
+
+.button.Three{
+    padding: 3px 26px 3px 26px;
+    border-radius: 21px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;;
+    margin-top: 20px;
+    left: 0px;
+    margin-left: 0px;
+}
+
+.carousel{
+    height: 679px;
+    border: Mixed solid #93A2D361;
+    margin-top: 158px;
+    padding: 0 120px;
+}
+
+.headingThree{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 42px;
+   color: #0E2368;
+    
+}
+.carouselMenu{
+    margin-top:41px ;
+}
+
+.footer{
+    height: 362px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   margin-top: 158px;
+    background-color:  #F8F8F8;
+    
+}
+
+.footerLogo{
+    margin-left: 103px;
+}
+
+.contactInformation{
+    width: 232px;
+    height:186px;
+}
+
+.footerH1{
+    font-size: 18.84px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    line-height: 27.22px;
+    color: #0E2368;
+}
+
+.footerList{
+    list-style-type: none;
+    font-family: 'Source Sans 3', sans-serif;
+     font-size: 14.66px;
+     font-weight: 400;
+     color: #646874;
+     margin-top: 15px;
+}
+
+li{
+    margin-top: 15px;
+}
+
+.socialLinks{
+    margin-top: -122px;
+    position: relative;
+}
+.icons{
+    margin-top: 10px;
+    display: flex;
+    gap:31px;
+}
+
+.copywrite{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14.66px;
+    line-height: 25.12px;
+    color: #828B9C;
+    position: absolute;
+    margin-top: 78px;
+    text-wrap: nowrap;
+}
+
+@media (max-width:1096px){
+     
+     
+    .logo{
+        padding-left: 29px;
+     }
+     .text{
+        margin-left: 29px;
+        
+     }
+     .heading{
+        margin-left: 29px;
+     }
+     .button{
+        margin-left: 29px;
+     }
+
+     .copywrite{
+        margin-left: -57px;
+     }
+     
+     .aboutUs{
+        margin-left: 20px;
+     }
+}
+
+
+@media (max-width: 376px){
+
+    .firstContainer{
+        flex-direction: column-reverse;
+    }
+
+    .pizza{
+        width: 378px;
+        height: 413px;
+    }
+    
+    .svg{
+        width: 375px;
+        height: 426px;
+        left: 2px;
+        top:-3px;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+     .heading{
+        width: 240px;
+        height: 130px;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+        margin-left: 67px;
+     }
+
+     .text{
+        font-size: 11px;
+        text-align: center;
+        width: 249px;
+        height: 36px;
+        margin-left:63px;
+     }
+     .button{
+        border-radius: 30px;       
+        font-size: 12.27px;
+        margin-left: 129px;
+        line-height: 31.45px;
+        padding: 12px 30px 12px 30px;
+       
+     }
+   
+     .imgTwo{
+        display: none;
+     }
+
+     .aboutUs{
+        width: 275px;
+        height: 235px;
+        margin-top: 107px;
+        margin:0;
+        text-align: center;
+     }
+     .secondContainer{
+        padding: 140px 50px;
+        align-items: center;
+        justify-content: center;
+        height: 516px;
+        margin-top: 64px;
+     }
+     .headingTwo{
+        font-size: 26px;
+        line-height: 35px;
+     }
+
+     .contentTwo{
+        font-size: 11px;
+        line-height: 21px;
+     }
+
+     .button.Three{
+        border-radius: 27px;
+        font-size: 11px;
+        line-height: 46px;
+        width: 96px;
+        height: 25px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;   
+        margin-right: auto;
+    }
+    .button.two{
+        border-radius: 27px;
+        font-size: 11px;
+        line-height: 46px;
+        width: 87px;
+        height: 31px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 18px;
+        right: 18px;
+        margin: 0;
+    }
+
+    .headingThree{
+        font-size: 28px;
+        line-height: 54px;
+        text-wrap: nowrap;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .carousel{
+        padding: 52px;
+    }
+   .footer{
+    margin-top: 1111px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+   }
+   .footerLogo{
+    margin-top: 20px;
+    margin-left: 0 ;
+   }
+   .footerImg{
+    width: 75px;
+    height: 58px;
+   }
+   .contactInformation{
+     width: 294px;
+     height: 116px;
+     margin-top: -25px;
+   }
+   .footerH1{
+    font-size: 15.77px;
+   }
+
+   .footerList{
+    font-size: 8.76px;
+   }
+   .one{
+    display: none;
+   }
+
+   .more{
+    margin-top: 29px;
+    margin-left: -244px;
+   }
+
+   .socialIcons{
+    width: 12px;
+    height: 12px;
+   }
+   .socialLinks{
+    margin-top: -42px;
+   }
+
+   .copywrite{
+    margin-left: -17px;
+    margin-top: -33px;
+    font-size: 8.76px;
+
+   }
+
+   .icons{
+    margin-top: 55px;
+    gap: 22px;
+   }
+}
+
